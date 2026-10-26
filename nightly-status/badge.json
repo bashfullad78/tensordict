@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "nightly",
-  "message": "no runs",
-  "color": "lightgrey"
+  "message": "5/5 passing",
+  "color": "brightgreen"
 }
