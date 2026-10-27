@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T12:05:12.215893+00:00",
+  "last_updated": "2026-10-27T21:35:42.965665+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-10-27",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/bashfullad78/tensordict/actions/runs/40496010618",
       "orchestrator_run_id": 40496010618,
       "workflows": {
