@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T21:59:34.131576+00:00",
+  "last_updated": "2026-10-29T12:05:14.244376+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -10,7 +10,7 @@
       "success_rate": 100.0
     },
     "last_30_days": {
-      "days": 10,
+      "days": 11,
       "runs_with_data": 3,
       "total_workflow_runs": 15,
       "total_success": 15,
@@ -19,6 +19,20 @@
     }
   },
   "history": [
+    {
+      "date": "2026-10-29",
+      "orchestrator_ran": false,
+      "orchestrator_status": "not_run",
+      "orchestrator_url": null,
+      "workflows": {},
+      "summary": {
+        "total": 0,
+        "success": 0,
+        "failure": 0,
+        "skipped": 0,
+        "success_rate": null
+      }
+    },
     {
       "date": "2026-10-28",
       "orchestrator_ran": true,
