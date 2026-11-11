@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T22:38:32.018564+00:00",
+  "last_updated": "2026-11-11T14:55:14.801189+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -10,15 +10,62 @@
       "success_rate": 100.0
     },
     "last_30_days": {
-      "days": 23,
-      "runs_with_data": 14,
-      "total_workflow_runs": 70,
-      "total_success": 70,
+      "days": 24,
+      "runs_with_data": 15,
+      "total_workflow_runs": 75,
+      "total_success": 75,
       "total_failure": 0,
       "success_rate": 100.0
     }
   },
   "history": [
+    {
+      "date": "2026-11-11",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/bashfullad78/tensordict/actions/runs/43028842861",
+      "orchestrator_run_id": 43028842861,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/bashfullad78/tensordict/actions/runs/43028842861/job/130550369885",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/bashfullad78/tensordict/actions/runs/43028842861/job/130550381653",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/bashfullad78/tensordict/actions/runs/43028842861/job/130550369261",
+          "display_name": "RL GPU Tests"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/bashfullad78/tensordict/actions/runs/43028842861/job/130550379912",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/bashfullad78/tensordict/actions/runs/43028842861/job/130550380044",
+          "display_name": "Benchmarks"
+        }
+      },
+      "summary": {
+        "total": 5,
+        "success": 5,
+        "failure": 0,
+        "skipped": 0,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-11-10",
       "orchestrator_ran": true,
