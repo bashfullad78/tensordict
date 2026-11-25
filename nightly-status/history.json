@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-11-25T01:43:36.271371+00:00",
+  "last_updated": "2026-11-25T17:06:23.421103+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 5,
-      "total_workflow_runs": 25,
-      "total_success": 25,
+      "runs_with_data": 6,
+      "total_workflow_runs": 30,
+      "total_success": 30,
       "total_failure": 0,
       "success_rate": 100.0
     },
     "last_30_days": {
       "days": 30,
-      "runs_with_data": 25,
-      "total_workflow_runs": 125,
-      "total_success": 125,
+      "runs_with_data": 26,
+      "total_workflow_runs": 130,
+      "total_success": 130,
       "total_failure": 0,
       "success_rate": 100.0
     }
@@ -21,16 +21,49 @@
   "history": [
     {
       "date": "2026-11-25",
-      "orchestrator_ran": false,
-      "orchestrator_status": "not_run",
-      "orchestrator_url": null,
-      "workflows": {},
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/bashfullad78/tensordict/actions/runs/45656153095",
+      "orchestrator_run_id": 45656153095,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/bashfullad78/tensordict/actions/runs/45656153095/job/139353314201",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/bashfullad78/tensordict/actions/runs/45656153095/job/139353313478",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/bashfullad78/tensordict/actions/runs/45656153095/job/139353313335",
+          "display_name": "RL GPU Tests"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/bashfullad78/tensordict/actions/runs/45656153095/job/139353314125",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/bashfullad78/tensordict/actions/runs/45656153095/job/139353313482",
+          "display_name": "Benchmarks"
+        }
+      },
       "summary": {
-        "total": 0,
-        "success": 0,
+        "total": 5,
+        "success": 5,
         "failure": 0,
         "skipped": 0,
-        "success_rate": null
+        "other": 0,
+        "success_rate": 100.0
       }
     },
     {
